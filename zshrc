@@ -176,7 +176,6 @@ eval "$(fnm env --use-on-cd)"
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
-add-zsh-hook -Uz chpwd(){ source <(tea -Eds) }  #tea
 
 
 # set ranger default editor
