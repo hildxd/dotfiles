@@ -25,3 +25,9 @@ mkrc -t tagName [file|path]
 ```bash
 lsrc
 ```
+
+## synchronize the data to another device
+
+```bash
+rcup
+```
