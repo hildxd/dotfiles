@@ -1,0 +1,41 @@
+#!/usr/bin/env sh
+
+# Spacebar setting
+# spacebar -m config status_bar                   on
+
+spacebar -m config position           bottom
+spacebar -m config height             24
+spacebar -m config spacing_left       18
+spacebar -m config spacing_right      18
+spacebar -m config text_font          "Maple Mono NF:Bold:14.0"
+spacebar -m config icon_font          "Maple Mono NF:12.0"
+#spacebar -m config background_color   0xff004D40
+spacebar -m config background_color   0xff1f1f1f
+spacebar -m config foreground_color   0xffffffff
+spacebar -m config space_icon_color   0xff54baf9
+spacebar -m config power_icon_color   0xffb3e052
+spacebar -m config battery_icon_color 0xffde5d57
+spacebar -m config dnd_icon_color     0xffa8a8a8
+spacebar -m config clock_icon_color   0xffa4d4ce
+#spacebar -m config space_icon_strip       
+#spacebar -m config space_icon_strip   🀙 🀚 🀛 🀜 🀝 🀞 🀟 🀠 🀡
+#spacebar -m config space_icon_strip   Ⅰ Ⅱ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ Ⅷ Ⅸ
+spacebar -m config space_icon_strip   𝟏 𝟐 𝟑 𝟒 𝟓 𝟔 𝟕 𝟖 𝟗
+spacebar -m config power_icon_strip    
+spacebar -m config space_icon         
+spacebar -m config clock_icon         
+spacebar -m config dnd_icon           
+spacebar -m config clock_format       "%a %m-%d %R"
+
+# left shell command
+spacebar -m config left_shell          on
+spacebar -m config left_shell_icon     ​
+spacebar -m config left_shell_command  "~/.config/yabai/spacebar_left_command.sh"
+
+# right shell command
+spacebar -m config right_shell          on
+spacebar -m config right_shell_icon     ​
+spacebar -m config right_shell_command  "~/.config/yabai/spacebar_right_command.sh"
+
+
+#!/usr/bin/env sh# 空格键设置# spacebar -m config status_baronspacebar -m config positionbottomspacebar -m config height24spacebar -m config spacing_left18spacebar -m config spacing_right18spacebar -m config text_font"Maple Mono NF:Bold:14.0"spacebar -m config icon_font"Maple Mono NF:12.0"#spacebar -m config background_color0xff004D40spacebar -m config background_color0xff1f1f1fspacebar -m config foreground_color0xffffffffspacebar -m config space_icon_color0xff54baf9spacebar -m config power_icon_color0xffb3e052spacebar -m config battery_icon_color 0xffde5d57spacebar -m config dnd_icon_color0xffa8a8a8spacebar -m config clock_icon_color0xffa4d4ce#spacebar -m config space_icon_strip spacebar -m配置space_icon_strip🀙🀙🀚🀛🀜🀡🀡🀡＃＃spacebar -m configspace_icon_strip_stripⅰsspace_icon_stripⅰsspace_iicon_icon_icon_icon_corpace_icon_corpace_icon_strip_ic_ic _ic _ic _IC _IC _IC SPACE _IC SPACE  spacebar -m config space_iconspacebar -m config clock_iconspacebar -m config dnd_iconspacebar -m c onfig clock_format"%a %m-%d %R"# left shell commandspacebar -m config left_shellonspacebar -m config left_shell_icon spacebar -m config left_shell_command"~/.config/yabai/spacebar_left_command.sh"# 右shell commandspacebar -m config right_shellonspacebar -m config right_shell_icon spacebar -m config right_shell_command"~/.config/yabai/spacebar_right_command.sh"
