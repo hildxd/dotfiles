@@ -2,8 +2,8 @@
 
 
 # open mpv with url from clipboard
-lalt - q: emacsclient -c -a emacs
-cmd - return: open -na /Applications/kitty.app/
+# lalt - q: emacsclient -c -a emacs
+# cmd - return: open -na /Applications/kitty.app/
 # focus window
 lalt - h : yabai -m window --focus west
 lalt - j : yabai -m window --focus south
@@ -23,16 +23,12 @@ lalt - 2 : yabai -m space --focus 2
 lalt - 3 : yabai -m space --focus 3
 lalt - 4 : yabai -m space --focus 4
 lalt - 5 : yabai -m space --focus 5
-lalt - 6 : yabai -m space --focus 6
-lalt - 7 : yabai -m space --focus 7
-lalt - 8 : yabai -m space --focus 8
 
 shift + lalt - 1 : yabai -m window --space 1
 shift + lalt - 2 : yabai -m window --space 2
 shift + lalt - 3 : yabai -m window --space 3
 shift + lalt - 4 : yabai -m window --space 4
 shift + lalt - 5 : yabai -m window --space 5
-shift + lalt - 6 : yabai -m window --space 6
 
 
 # move window

@@ -89,9 +89,6 @@ setup_space 2 web
 setup_space 3 chat
 setup_space 4 music
 setup_space 5 files
-setup_space 6 productivity
-setup_space 7 funnni
-setup_space 8 funnier
 
 yabai -m rule --add app="^Brave Browser$" space=^2
 
